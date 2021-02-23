@@ -1,0 +1,71 @@
+/*no extra white space */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* background styles */
+.dark-background {
+    text-align: center;
+    justify-content: space-around;
+    height: 150px;
+    background-color: #132b11;
+    color: #c7ccc6;
+}
+
+.light-background {
+    background-color: #c7ccc6;
+    color: #132b11;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+/* header styles */
+header {
+    padding-top: 1px;
+    padding-bottom: 5px;
+  }
+
+h1 {
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    justify-content: center;
+    width: 100%;
+}
+
+/* main section content */
+.my-image {
+    text-align: center;
+    padding: 60px;
+}
+
+article {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+ol, ul {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* footer styles */
+footer {
+    margin: -15px;
+    padding: none;
+}
+
+footer p {
+    padding-top: 60px;
+}
+
+/* pseudo classes */
+a:link    {color: green}
+a:visited {color: rgba(4, 209, 4, 0.801)}
+a:hover   {color: lightgreen}
+a:active  {color: darkgreen}
